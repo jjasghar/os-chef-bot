@@ -1,1 +1,5 @@
-["redis-brain.coffee", "shipit.coffee"]
+[
+  "ambush.coffee",
+  "redis-brain.coffee",
+  "shipit.coffee"
+]
