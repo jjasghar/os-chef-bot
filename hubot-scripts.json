@@ -1,6 +1,5 @@
 [
   "ambush.coffee",
   "redis-brain.coffee",
-  "shipit.coffee",
-  "web.coffee"
+  "shipit.coffee"
 ]
