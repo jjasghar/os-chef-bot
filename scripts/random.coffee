@@ -15,7 +15,7 @@ module.exports = (robot) ->
     msg.send "Our hangout (live) status meeting are at 16:30 GMT 11:30 EST 08:30 PST on Mondays and we post the links to the Google Group: https://groups.google.com/forum/#!forum/opscode-chef-openstack"
 
   robot.respond /\!irc-meeting$/i, (msg) ->
-    msg.send "Our irc status meeting/office hours are at 20:00 GMT 16:00 EST 12:00 PST on Thursdays we try to have as many core members here so we can discuss topics or issues users are having"
+    msg.send "Our IRC status meeting/office hours are at 16:30 GMT 11:30 EST 08:30 PST on Fridays we try to have as many core members here so we can discuss topics or issues users are having"
 
   robot.respond /\!meeting-start$/i, (msg) ->
     msg.send "************************************************ Meeting is starting ************************************************"
