@@ -1,5 +1,4 @@
 [
-  "ambush.coffee",
   "redis-brain.coffee",
   "shipit.coffee",
   "tasks.coffee"
