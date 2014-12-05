@@ -13,14 +13,11 @@
 #   hubot Yo dawg <text> so <text> - Generates Yo Dawg
 #   hubot All your <text> are belong to <text> - All your <text> are belong to <text>
 #   hubot If <text>, <word that can start a question> <text>? - Generates Philosoraptor
-#   hubot <text>, BITCH PLEASE <text> - Generates Yao Ming
-#   hubot <text>, COURAGE <text> - Generates Courage Wolf
 #   hubot ONE DOES NOT SIMPLY <text> - Generates Boromir
 #   hubot IF YOU <text> GONNA HAVE A BAD TIME - Ski Instructor
 #   hubot IF YOU <text> TROLLFACE <text> - Troll Face
 #   hubot Aliens guy <text> - Aliens guy weighs in on something
 #   hubot Brace yourself <text> - Ned Stark braces for <text>
-#   hubot Iron Price <text> - To get <text>? Pay the iron price!
 #   hubot Not sure if <something> or <something else> - Generates a Futurama Fry meme
 #   hubot <text>, AND IT'S GONE - Bank Teller
 #   hubot WHAT IF I TOLD YOU <text> - Morpheus What if I told you
@@ -31,10 +28,6 @@
 module.exports = (robot) ->
   robot.respond /Y U NO (.+)/i, (msg) ->
     memeGenerator msg, 'http://memecaptain.com/y_u_no.jpg', 'Y U NO', msg.match[1], (url) ->
-      msg.send url
-
-  robot.respond /iron price (.+)/i, (msg) ->
-    memeGenerator msg, 'http://imgur.com/nqVZQel.jpg', msg.match[1], 'Pay the iron price', (url) ->
       msg.send url
 
   robot.respond /aliens guy (.+)/i, (msg) ->
@@ -73,13 +66,6 @@ module.exports = (robot) ->
     memeGenerator msg, 'http://i.imgur.com/gzPiQ8R.jpg', msg.match[1], msg.match[2], (url) ->
       msg.send url
 
-  robot.respond /(.*)\s*BITCH PLEASE\s*(.*)/i, (msg) ->
-    memeGenerator msg, 'http://memecaptain.com/yao_ming.jpg', msg.match[1], msg.match[2], (url) ->
-      msg.send url
-
-  robot.respond /(.*)\s*COURAGE\s*(.*)/i, (msg) ->
-    memeGenerator msg, 'http://memecaptain.com/courage_wolf.jpg', msg.match[1], msg.match[2], (url) ->
-      msg.send url
 
   robot.respond /ONE DOES NOT SIMPLY (.*)/i, (msg) ->
     memeGenerator msg, 'http://memecaptain.com/boromir.jpg', 'ONE DOES NOT SIMPLY', msg.match[1], (url) ->
