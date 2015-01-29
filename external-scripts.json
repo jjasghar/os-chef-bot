@@ -1,5 +1,6 @@
 [
-  "hubot-ambush",
-  "hubot-fliptable",
-  "hubot-group-alias"
+    "hubot-ambush",
+    "hubot-fliptable",
+    "hubot-group-alias",
+    "hubot-seen"
 ]
