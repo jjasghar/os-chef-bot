@@ -1,43 +1,44 @@
 {
-  "name": "hosted-hubot",
-  "version": "2.7.1",
-  "private": true,
+    "name": "hosted-hubot",
+    "version": "2.7.1",
+    "private": true,
 
-  "author": "GitHub Inc.",
+    "author": "GitHub Inc.",
 
-  "keywords": [
-    "github",
-    "hubot",
-    "campfire",
-    "bot"
-  ],
+    "keywords": [
+        "github",
+        "hubot",
+        "campfire",
+        "bot"
+    ],
 
-  "description": "A simple helpful robot for your Company",
+    "description": "A simple helpful robot for your Company",
 
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/github/hubot/raw/master/LICENSE"
-  }],
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/github/hubot/raw/master/LICENSE"
+    }],
 
-  "repository" : {
-    "type": "git",
-    "url": "https://github.com/github/hubot.git"
-  },
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/github/hubot.git"
+    },
 
-  "dependencies": {
-      "hubot":         ">= 2.6.0 < 3.0.0",
-      "hubot-ambush": "latest",
-      "hubot-fliptable": ">= 0.0.0",
-      "hubot-group-alias": "hubot-scripts/hubot-group-alias",
-      "hubot-irc":         ">= 0.1.24",
-      "hubot-seen":         "latest",
-      "hubot-scripts": ">= 2.5.0 < 3.0.0",
-      "htmlparser": "1.7.6",
-      "soupselect": "0.2.0",
-      "jsdom": "0.2.14",
-      "clark": "latest",
-      "underscore": "latest"
-  },
+    "dependencies": {
+        "hubot":         ">= 2.6.0 < 3.0.0",
+        "hubot-ambush": "latest",
+        "hubot-fliptable": ">= 0.0.0",
+        "hubot-group-alias": "hubot-scripts/hubot-group-alias",
+        "hubot-irc":         ">= 0.1.24",
+        "hubot-seen":         "latest",
+        "hubot-plusplus":         "latest",
+        "hubot-scripts": ">= 2.5.0 < 3.0.0",
+        "htmlparser": "1.7.6",
+        "soupselect": "0.2.0",
+        "jsdom": "0.2.14",
+        "clark": "latest",
+        "underscore": "latest"
+    },
 
   "engines": {
     "node": ">= 0.8.x",
