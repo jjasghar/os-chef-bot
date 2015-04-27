@@ -14,13 +14,13 @@
 
 module.exports = (robot) ->
   robot.respond /\!status-meeting$/i, (msg) ->
-    msg.send "Our hangout (live) status meeting are at 15:30 GMT 10:30 EST 07:30 PST on Mondays and we post the links to the Google Group: https://groups.google.com/forum/#!forum/opscode-chef-openstack"
+    msg.send "IRC status meeting are at 14:30 GMT 10:30 EST 07:30 PST on Mondays and we post the links to the mailing list"
 
   robot.respond /\!irc-meeting$/i, (msg) ->
     msg.send "Our IRC status meeting/office hours are at 15:30 GMT 10:30 EST 07:30 PST on Thursdays we try to have as many core members here so we can discuss topics or issues users are having"
 
   robot.respond /\!meeting(s\b|\b)$/i, (msg) ->
-    msg.send "Our hangout (live) status meeting are at 15:30 GMT 10:30 EST 07:30 PST on Mondays and we post the links to the Google Group: https://groups.google.com/forum/#!forum/opscode-chef-openstack and our IRC status meeting/office hours are at 15:30 GMT 10:30 EST 07:30 PST on Thursdays we try to have as many core members here so we can discuss topics or issues users are having"
+    msg.send "IRC status meeting are at 14:30 GMT 10:30 EST 07:30 PST on Mondays and we post the links to the mailing list and our IRC office hours are at 15:30 GMT 10:30 EST 07:30 PST on Thursdays we try to have as many core members here so we can discuss topics or issues users are having"
 
   robot.respond /\!meeting-start$/i, (msg) ->
     msg.send "************************************************ Meeting is starting ************************************************"

@@ -1,5 +1,7 @@
 [
-  "redis-brain.coffee",
-  "shipit.coffee",
-  "tasks.coffee"
+    "plus_one.coffee",
+    "plusplus.coffee",
+    "redis-brain.coffee",
+    "shipit.coffee",
+    "tasks.coffee"
 ]
