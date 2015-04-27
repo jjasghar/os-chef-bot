@@ -1,7 +1,11 @@
 #!/bin/sh
 
+export "HUBOT_MAIL_NOTIFIER_ROOMS=shell"
+export "HUBOT_MAIL_NOTIFIER_USERNAME=oschefbot@gmail.com"
+export "HUBOT_MAIL_NOTIFIER_PASSWORD=chefB0t1"
+export "HUBOT_MAIL_NOTIFIER_HOST=imap.gmail.com"
+
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
 exec node_modules/.bin/hubot "$@"
-
