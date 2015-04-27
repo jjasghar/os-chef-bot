@@ -1,5 +1,4 @@
 [
-    "karma.coffee",
     "plus_one.coffee",
     "redis-brain.coffee",
     "shipit.coffee",
