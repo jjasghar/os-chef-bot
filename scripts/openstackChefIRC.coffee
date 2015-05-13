@@ -13,10 +13,10 @@
 
 module.exports = (robot) ->
   robot.hear /\.irc-meeting$/i, (msg) ->
-    msg.send "IRC status meeting are at 1600 UTC 1100 EST 0830 PST on Mondays located in #openstack-meeting-3."
+    msg.send "IRC status meeting are at 1600 UTC 1100 EST 0800 PST on Mondays located in #openstack-meeting-3."
 
   robot.hear /\.meeting(s\b|\b)$/i, (msg) ->
-    msg.send "IRC status meeting are at 1600 UTC 1100 EST 0830 PST on Mondays located in #openstack-meeting-3."
+    msg.send "IRC status meeting are at 1600 UTC 1100 EST 0800 PST on Mondays located in #openstack-meeting-3."
 
   robot.hear /\.meeting-start$/i, (msg) ->
     msg.send "************************************************ Meeting is starting ************************************************"
